@@ -2,14 +2,20 @@
 
 <h3 align="center">A console-based Multiplayer Card Game with specific set of rules for the game itself.</h3>
 
-## Programming Language Used -
-* Java
+<h2 align="center">Programming Language Used -</h2>
 
-## Build Tool Used -
-* Maven
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" width=90px height=30px alt="java" />
+</p>
 
-## IDE Used -
-* Spring Tool Suite (STS)
+<h2 align="center">Build Tool Used -</h2>
+<h3 align="center">Maven</h3>
+
+<h2 align="center">IDE Used -</h2>
+<h3 align="center">Spring Tool Suite (STS)</h3>
+
+</br>
+<h3 align="center"><a href="https://drive.google.com/file/d/1s58nhKKAy-lo24BFBr-OviviZeMUt--6/view?usp=sharing"><strong>Demo Video »</strong></a></h3>
 
 ## More about the game -
 ### Rules -
