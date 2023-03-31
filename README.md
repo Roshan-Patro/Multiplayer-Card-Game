@@ -15,7 +15,7 @@
 <h3 align="center">Spring Tool Suite (STS)</h3>
 
 </br>
-<h3 align="center"><a href="https://drive.google.com/file/d/1s58nhKKAy-lo24BFBr-OviviZeMUt--6/view?usp=sharing"><strong>Demo Video »</strong></a></h3>
+<h3 align="center"><a href="https://drive.google.com/file/d/1s58nhKKAy-lo24BFBr-OviviZeMUt--6/view?usp=sharing target="_blank""><strong>Demo Video »</strong></a></h3>
 
 ## More about the game -
 ### Rules -
