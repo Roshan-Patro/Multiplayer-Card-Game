@@ -8,7 +8,7 @@
 ## Build Tool Used -
 * Maven
 
-## IDE Used:
+## IDE Used -
 * Spring Tool Suite (STS)
 
 ## More about the game -
