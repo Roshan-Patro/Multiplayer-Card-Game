@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Collections;
+import java.util.Scanner;
 import java.util.Stack;
 
 import entity.Card;
@@ -39,4 +41,34 @@ public class Main {
 			deck.push(card);
 		}
 	}
+	
+	public static void main(String[] args) {
+		// Shuffling the deck of cards before starting the game
+		Collections.shuffle(deck);
+		
+		// Taking the number of players as input
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number of players. Minimum - 2 and Maximum - 4.");
+		int noOfPlayers = sc.nextInt();
+		
+		// The player count must be between 2 and 4 (both inclusive)
+		if(noOfPlayers>=2 && noOfPlayers<=4) {
+			// Hand of cards of all players in a stack of stacks
+			Stack<Stack<Card>> allPlayerHands = new Stack<>();
+			
+			// Distributing cards among all the players
+			for (int i = 0; i < noOfPlayers; i++) {
+				Stack<Card> singlePlayerCards = new Stack<>();
+				
+				// Each player starts with a hand of 5 cards
+				for (int j = 0; j < 5; j++) {
+					singlePlayerCards.push(deck.pop());
+				}
+				allPlayerHands.push(singlePlayerCards);
+			}
+			
+			
+		}
+	}
+	
 }
